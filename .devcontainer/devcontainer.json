@@ -1,0 +1,17 @@
+{
+    "name": "go",
+    "dockerComposeFile": [
+        "../docker-compose.yml"
+    ],
+    "service": "go",
+    "workspaceFolder": "/app",
+    "extensions": [
+        "golang.go"
+    ],
+    "shutdownAction": "stopCompose",
+    "settings": {
+        "files.insertFinalNewline": true,
+        "files.trimFinalNewlines": true,
+        "files.trimTrailingWhitespace": true,
+    }
+}
