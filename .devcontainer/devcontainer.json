@@ -6,7 +6,8 @@
     "service": "go",
     "workspaceFolder": "/app",
     "extensions": [
-        "golang.go"
+        "apollographql.vscode-apollo",
+        "golang.go",
     ],
     "shutdownAction": "stopCompose",
     "settings": {
